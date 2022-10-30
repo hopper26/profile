@@ -1,0 +1,58 @@
+<!-- https://www.construct.net/en/free-online-games -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Profile Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&family=Montserrat&display=swap" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="game.js"></script>
+  </head>
+  <body>
+    <p id="warning-msg"><strong>SCREEN TOO SMALL</strong></p>
+    <div class="main_part">
+      <img src="images/IMG_4867.jpeg",alt="profile_pic", class="center">
+      <h1>Hi, I'm Hayley</h1>
+      <h2>About Me</h2>
+      <p>
+        Have a Masters in Electronic and Computer Systems Engineering degree. Worked at Rolls-Royce on placement.
+        Attempted to do a robotics PhD in Edinburgh. Currently an Associate consultant for a fintech company.
+        Possible full stack developer.
+      </p>
+      <h2>Some Interesting Facts</h2>
+      <ul>
+        <li>Have 3 sisters</li>
+        <li>Climbed an active volcano in Bali - Mt Agung</li>
+        <li>Built Christmas presents last year out of Lego - One was an Infinity Mirror</li>
+        <br><br>
+        <video width="200px" height="500px" controls="controls" id="vid-mirror">
+          <source src="images/IMG_6178.mp4" type="video/mp4">
+        </video>
+      </ul>
+      <br>
+      <button name="button" id="button-game">GAME</button>
+      <br>
+      <iframe id="game" width="560" height="500" allow="fullscreen; autoplay; encrypted-media" src="https://games.construct.net/769/latest" frameborder="0" allowfullscreen="true" msallowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" allowpaymentrequest="false" referrerpolicy="unsafe-url" sandbox="allow-same-origin allow-forms allow-scripts allow-pointer-lock allow-orientation-lock allow-popups" scrolling="no"></iframe>
+    </div>
+    <div class="social_media">
+      <h2>Social Links</h2>
+      <ul>
+        <li>
+          <a href="https://github.com/hopper26" target="_blank"><i class="fa-brands fa-github social_icons"></i></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in social_icons"></i></a>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
+<!-- end of file -->
